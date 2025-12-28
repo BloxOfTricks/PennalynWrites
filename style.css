@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0d061a;
+    color: #eee;
+}
+
+/* Navbar / Ribbon */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #140a2e;
+    position: sticky;
+    top: 0;
+}
+
+.navbar a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #d6c9ff;
+}
+
+.logo {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+    background: linear-gradient(
+        135deg,
+        #b58cff 0%,
+        #3b1d6b 60%,
+        #12061f 100%
+    );
+}
+
+.hero h1 {
+    font-size: 3em;
+}
+
+.hero p {
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+
+/* Sections */
+.section {
+    padding: 80px 20%;
+}
+
+.section.alt {
+    background: #140a2e;
+}
+
+.section h2 {
+    margin-bottom: 20px;
+    color: #cbb6ff;
+}
+
+/* Forms */
+form {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea, select {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #1d123a;
+    border: none;
+    color: #fff;
+}
+
+button {
+    padding: 12px;
+    background: #6d4cff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #8a6cff;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #140a2e;
+}
